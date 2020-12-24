@@ -1,9 +1,12 @@
 {
   "name": "createTestServer",
   "version": "1.0.0",
-  "description": "create Test and GraphaQL Test Server",
+  "description": "create Test and GraphQL Test Server",
   "main": "index.js",
   "repository": "https://github.com/TAE-HWAN-KIM/moveQL",
   "author": "thkim<shsrgg@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
 }
