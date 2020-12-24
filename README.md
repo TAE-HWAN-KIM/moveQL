@@ -1,2 +1,2 @@
 # moveQL
-create Test and GraphaQL Test Server
+create Test and GraphQL Test Server
