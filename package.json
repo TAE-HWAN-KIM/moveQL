@@ -7,6 +7,7 @@
   "author": "thkim<shsrgg@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.21.1",
     "babel-cli": "^6.26.0",
     "graphql-yoga": "^1.18.3"
   },

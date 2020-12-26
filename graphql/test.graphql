@@ -1,5 +1,20 @@
-type Query {
-  name : String!,
-  age : Int!,
+type person{
+  personID : Int!
+  name: String!
+  age: Int!
   test: String!
 }
+
+type people {
+  person: [person]!
+}
+
+type Query {
+  people: [person]!
+  person(personID:Int!):person
+  age: Int!
+  test: String!
+}
+# !의 경우 강제성을 의미한다. 
+# person함수의 경우 !가 없는데 이것은 원하는 값이 없다면 null을리턴한다, 
+# 만약 !를 줄 경우 원하는 값이 없다면 에러를 리턴

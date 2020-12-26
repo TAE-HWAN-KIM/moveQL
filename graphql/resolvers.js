@@ -2,7 +2,7 @@ import {
     getMovies,
     getMovie,
     getSuggestions
-} from "./db";
+} from "../db/db";
 
 const resolvers = {
     Query: {
