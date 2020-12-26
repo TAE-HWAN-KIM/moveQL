@@ -23,9 +23,17 @@ const thkim2 = {
     test: 'thkim2 test message'
 };
 
+const thkim3 = {
+    personID: 2,
+    name: 'thkim3',
+    age: 0,
+    test: 'thkim3 test message'
+};
+
 const people = [
     thkim,
-    thkim2
+    thkim2,
+    thkim3
 ];
 
 const resolvers = {
